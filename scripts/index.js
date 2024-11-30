@@ -1,27 +1,27 @@
-import getDatos from "./getDatos.js";
+import getData from "./getData.js";
 
-const btnSortear = document.querySelector('.btn-sortear');
-const fichaDescripcion = document.getElementById('ficha-descripcion');
+const btnSearch = document.querySelector('.btn-search');
+const descriptionCard = document.getElementById('description-card');
 
-function cargarInfoSerie() {
-  getDatos(`/series/frases`)
+function loadSeriesInfo() {
+  getData(`/series/phrase`)
       .then(data => {
-        fichaDescripcion.innerHTML = `
-              <img src="${data.poster}" alt="${data.titulo}" />
+        descriptionCard.innerHTML = `
+              <img src="${data.poster}" alt="${data.title}" />
               <div>
-                  <h2>${data.titulo}</h2>
-                  <div class="descripcion-texto">
-                      <p><i>"${data.frase}"</i></p>
-                      <p><b>Citado por:</b> ${data.personaje}</p>
+                  <h2>${data.title}</h2>
+                  <div class="description-text">
+                      <p><i>"${data.phrase}"</i></p>
+                      <p><b>Quoted by: </b> ${data.character}</p>
                   </div>
               </div>
           `;
       })
       .catch(error => {
-          console.error('Error al obtener las informaciones de la serie:', error);
+          console.error('Error getting series information:', error);
       });
 }
 
 
-window.onload = cargarInfoSerie();
-btnSortear.addEventListener('click', cargarInfoSerie);
+window.onload = loadSeriesInfo();
+btnSearch.addEventListener('click', loadSeriesInfo);

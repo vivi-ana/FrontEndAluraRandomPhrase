@@ -46,16 +46,16 @@ main {
   height: 100px;
 }
 
-.ficha img {
+.card img {
   gap: 1em;
   margin: 0 3em 2em 0;
 }
 
-.ficha-descripcion {
+.description-card {
   display: flex;
 }
 
-.ficha-descripcion div {
+.description-card div {
   display: flex;
   flex-direction: column;
   gap: 3em;
@@ -82,7 +82,7 @@ p {
   font-size: 22px;
 }
 
-.btn-sortear{
+.btn-search{
   border-radius: 24px;
   border: none;
   outline: none;
@@ -104,7 +104,7 @@ p {
 
 @media screen and (max-width: 900px) {
 
-  .ficha-descripcion {
+  .description-card {
       display: block;
   }
 }
