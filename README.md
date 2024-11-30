@@ -1,26 +1,28 @@
-![Programação-Consolidando los conocimientos](https://github.com/genesysR-dev/java-persistencia-de-datos-y-consultas-con-spring-data-jpa/assets/91544872/f80133d4-945e-4302-a87c-17396777ceaf)
+# Front-end of [AluraRandomPhrase](https://github.com/vivi-ana/AluraRandomPhrase): Random classic movie and series quotes
 
-# Front-end de la aplicación: Frases clásicas de películas y series ScreenMatch
+This is the user interface of [AluraRandomPhrase](https://github.com/vivi-ana/AluraRandomPhrase) RESTful API  that will be used in the practice as part of the Oracle Next Education course.
 
-Esta es la interfaz de usuario de la aplicación que se utilizará en el desafío propuesto en la última clase del curso.
+## Installation
 
-Para visualizarla, después de descargar o clonar el proyecto, ábrela con VS Code.
+1. Clone or dowload the repository.
+2. Open the project in VS Code.
+3. Install the Live Server extension.
+4. Right-click on **index.html** and select "Open with Live Server".
 
-Si no lo tienes, instala la extensión *Live Server*.
+*You can also use the deployed option of this fron-end: [Online Version](https://vivi-ana.github.io/FrontEndAluraRandomPhrase/)*
 
-Una vez hecho esto, haz clic con el botón derecho en el archivo **index.html** y elige "Abrir con Live Server".
+## Usage
 
-Inicialmente, si tu API aún no está desarrollada, el contenido que verás será el siguiente:
+- Initially, if your API is not running yet, the content you will see is as follows: (*whether you are using the local frontend or the online deployment*)
 
+![base-image-of-quote-generator](https://res.cloudinary.com/dpvshriob/image/upload/v1732996369/Vista1_rezn59.png)
 
-![generador-de-frases-base-imagen](https://cdn1.gnarususercontent.com.br/6/103811/d428ddb0-1561-46b0-8843-079ce6759c03.png)
+*Remember, this is the [back-end side](https://github.com/vivi-ana/AluraRandomPhrase)*.
 
-
-Después de completar el desafío, tu proyecto estará completo y la aplicación mostrará los datos, de manera similar a lo siguiente:
-
-
-![generador-de-frases-final-imagen](https://github.com/genesysR-dev/java-persistencia-de-datos-y-consultas-con-spring-data-jpa/assets/91544872/bbda09ca-8279-4d8a-953c-412535014210)
+- When the backend is running, the application will display the data, similar to the following:
 
 
+![final-image-of-quote-generator](https://res.cloudinary.com/dpvshriob/image/upload/v1732996996/Vista2_epheyj.png)
 
-# ¡Buena suerte!
+
+Happy coding! ❤️
